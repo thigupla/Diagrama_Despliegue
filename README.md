@@ -1,4 +1,5 @@
 # Diagrama_Despliegue
+```mermaid
 graph TD
     %% Estilos para simular Nodos UML
     classDef nodo fill:#ECECFF,stroke:#9370DB,stroke-width:2px,rx:5,ry:5;
@@ -34,3 +35,4 @@ graph TD
     ServerApp --- API
     ServerDB --- DB_Vuelos
     PC_Terminal --- AppCliente
+```
